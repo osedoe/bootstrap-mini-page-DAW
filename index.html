@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="container">
+        <div class="row">
+            <div id="carouselExampleIndicators" class="col carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="./img/coches1.jpg" alt="Second slide">
+                        <div class="align-bottom carousel-caption d-block">
+                            <h1 class="align-bottom">Siente la libertad </h1>
+                            <p>La carretera y la velocidad son tus aliadas</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./img/coches2.jpg" alt="First slide">
+                        <div class="carousel-caption d-block">
+                            <h1 class="text-left display-1">Emociónate</h1>
+                            <p class="text-right">Conocenos</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./img/coches3.jpg" alt="Third slide">
+                        <div class="carousel-caption d-block">
+                            <h1 class="display-4">Busca algo más que un coche</h1>
+                            <p>El placer de buscar el camino a una experiencia</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <nav aria-label="breadcrumb w-100">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Principal</li>
+            </ol>
+        </nav>
+    </header>
+
+    <section class="container">
+        <div class="row">
+            <div class="align-self-start collapse border rounded" id="navbarToggleExternalContent">
+                <div class="list-group text-black-50 list-group-flush">
+                    <a href="index.html" class="text-secondary list-group-item active">
+                        <span>
+                            <i class="fas fa-home fa-2x"></i>
+                        </span>
+                        Principal
+                    </a>
+                    <a href="buscador.html" class="text-secondary list-group-item">
+                        <span>
+                            <i class="fas fa-search fa-2x"></i>
+                        </span> Buscador Especializado
+                    </a>
+                    <a href="outlet.html" class="text-secondary list-group-item">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-square fa-stack-2x"></i>
+                            <i class="fa fa-car fa-stack-1x fa-inverse"></i>
+                        </span> Outlet
+                    </a>
+                    <a href="nosotros.html" class="text-secondary list-group-item">
+                        <span class="fa-stack fa-lg">
+                            <i class="fas fa-cog fa-2x"></i>
+                        </span>
+                        Sobre nosotros
+                    </a>
+                    <button type="button" class="btn text-secondary list-group-item" data-toggle="modal" data-target="#exampleModalLong">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-envelope fa-stack-1x"></i>
+                            <i class="fa fa-ban fa-stack-2x text-danger"></i>
+                        </span> Contacta (próximamente)
+                    </button>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+                        <nav class="navbar-light">
+                            <button class="border-0 p-0 navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </nav>
+                        <div class="jumbotron jumbotron-fluid">
+                            <div class="container">
+                                <h1 class="display-4">Bienvenidos</h1>
+                                <p class="lead">Ejemplo de jumbotron y jumbotron-fluid</p>
+                                <hr class="my-4">
+                                <p>Buscador de vehiculos motorizados</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="exampleModalLongTitle">Estamos en Construcción</h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h3>Popover</h3>
+                    <p>Necesita contactar urgetenemente... <a href="#" id="popo" role="button" class="btn btn-outline-info popover-test"
+                            title="Necesita ayuda" data-placement="bottom" data-content="Envíe un correo a bibla@gmail.es">Help!!</a>
+                        Aunque
+                        es posible que no podamos atenderle como usted se
+                        merece.</p>
+                    <button type="button" class="btn btn-success col" id="popo2" title="Un saludo" data-placement="top"
+                        data-content="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis exercitationem nihil asperiores minus totam deserunt perferendis! Ab tempora rerum cum placeat voluptas soluta. Sunt, est temporibus nihil delectus vel inventore?">Saludos</button>
+                    <hr>
+
+                    <h4>Tooltips</h4>
+                    <p>Nuestro <button type="button" class="btn text-black badge badge-pill badge-warning" data-html="true"
+                            data-toggle="tooltip" data-placement="bottom" title="Community Manager">CM</button> se
+                        pondrá en contacto
+                        vía <button type="button" class="btn badge badge-primary" data-html="true" data-toggle="tooltip"
+                            data-placement="right" title="Social Media: redes sociales">SM</button></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="col btn btn-light btn-outline-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('#popo').popover();
+            $('#popo2').popover({
+                delay: {
+                    "show": 100,
+                    "hide": 500
+                },
+                trigger: "hover"
+            });
+            $(('.tooltip-test').tooltip());
+        });
+    </script>
+</body>
+
+</html>
